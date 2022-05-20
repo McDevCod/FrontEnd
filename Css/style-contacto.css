@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+li,a, .boton{
+    font-family: 'Pirata One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.logo{
+    width: 128px;
+    height: auto;
+    cursor:pointer;
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.nav-list li{
+display: inline-block;
+padding: 0px 20px;
+}
+
+.nav-list li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-list li a:hover{
+color: #0088a9;
+}
+
+
+body{
+    background-image:url("../images/girlpirate.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 750px;
+}
+.boton{
+    width: 100px;
+    height: 50px;
+    /**padding:9px 25px;**/
+
+}
+
+
+.login-contenedor{
+    position:relative;
+    display:inline-block;
+    text-align: center;
+}
+
+.texto{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.texto:hover{
+    /**transition: all 0.3s ease 0s;**/ 
+    font-size: 30px;
+    transition: all 0.5s ease 0.3s;
+
+}
+
+main{
+    position:absolute;
+    width: 200px;
+    box-shadow:inset;    
+    border-radius: 10px;
+    top:250px;
+    left: 500px;
+    background-color: burlywood;
+    box-shadow: 7px 13px 37px #000;
+}
+
+p{
+    font-family: 'Pirata One', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color:floralwhite;
+    text-align: justify;
+    padding:5px;
+}
+
+
